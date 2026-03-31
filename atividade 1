@@ -11,6 +11,6 @@ int main(void) {
     s = (s%3600)%60;
     printf("%d:%d:%d", h,m,s);
  
-    
+     system("pause");
     return 0;
 }
